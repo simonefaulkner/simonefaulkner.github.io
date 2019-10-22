@@ -23,7 +23,10 @@ img {
   font-size: 25px;
   margin-right: 25px;
 }
-
+.star {
+  display:inline;
+  width:4%;
+}
 .fa {
   font-size: 25px;
 }
