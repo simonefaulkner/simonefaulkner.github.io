@@ -33,8 +33,13 @@ p span{background-color:#777;}
   background-attachment: fixed;
   background-position:center;
   background-repeat:no-repeat;
-  background-size:75%
+  background-size:100%
   ;
+}
+h2 {color:#F0E68C;}
+video{
+  display:block;
+  margin:0 auto;
 }
 .bgimg1{
   background-image:url("bgimg1.jpg");
@@ -48,6 +53,8 @@ p span{background-color:#777;}
 .bgimg3{
   background-image:url("bgimg3.jpeg");
   min-height:100%;
+  background-size:120%
+  ;
 }
 .caption{
   position:absolute;
@@ -64,14 +71,7 @@ p span{background-color:#777;}
   font-size: 25px;
   letter-spacing: 10px;
 }
-img {
-	display: block;
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
-  animation-duration:3s;
-  animation-name: slidein;
-}
+
 
 
 /*Rating starts here*/
@@ -179,7 +179,7 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
 .icon-bar {
-  width: 75%; /* Full-width */
+  width: 100%; /* Full-width */
   background-color: #555; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
   background-position: center;
